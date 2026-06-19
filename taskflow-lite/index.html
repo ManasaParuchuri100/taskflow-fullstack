@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>TaskFlow Lite</title>
+
+    <link
+        rel="stylesheet"
+        href="styles/main.css"
+    >
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>✨ TaskFlow Lite</h1>
+        <p class="subtitle">
+            Organize your day, one task at a time.
+        </p>
+
+        <form id="task-form">
+
+            <input
+                type="text"
+                id="task-input"
+                placeholder="What needs to be done?"
+            >
+
+            <button type="submit">
+                Add
+            </button>
+
+        </form>
+
+        <div class="stats">
+
+            <div>
+                Total Tasks:
+                <span id="task-count">0</span>
+            </div>
+
+            <div>
+                Completed:
+                <span id="completed-count">0</span>
+            </div>
+
+        </div>
+
+        <div class="progress-container">
+            <div
+                class="progress-bar"
+                id="progress-bar"
+            ></div>
+        </div>
+
+        <ul id="task-list"></ul>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Ignore other project folders
+HTML/
+LangBase/
+
+# Ignore backend dependencies and secrets
+taskflow-api/node_modules/
+taskflow-api/.env
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
